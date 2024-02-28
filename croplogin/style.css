@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body{
+    background:url(login.jpg)no-repeat;
+    position:relative;
+    background-size: cover;
+}
+
+
+.center{
+    text-wrap: wrap;
+    color:#0CAE38;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 350px ;
+    margin-top:80px;
+    letter-spacing: 3.5px;
+    font-size:25px;
+}
+.main{
+    /* background-color: aqua; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left:350px;
+    width: 600px;;
+    
+}
+
+.main1{ 
+    width:auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+}
+input{
+    border:none;
+    width: 550px;
+    outline: none;
+    height:20px;
+}
+.submit{
+    position: absolute;
+    margin-left:200px;
+    background-color: #204E51;
+    flex-wrap: wrap;
+    height:30px;
+    width:200px;
+    color: beige;
+}
